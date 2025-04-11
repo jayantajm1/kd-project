@@ -1,0 +1,10 @@
+login username: jayanta123
+password: ********
+open browser
+search project submission deadline
+open gmail
+reply to email regarding assignment
+type word document
+save file
+ctrl + s
+logout

