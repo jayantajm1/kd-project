@@ -20,3 +20,21 @@ This is a simple command-line tool to detect **potential exploitation activities
 
 Save the tool script as:
 
+---
+
+### 2. Prepare Your Files
+
+Ensure you have:
+
+- A trained model file: `keylogger_intrusion_model.pkl`
+- A keylog `.txt` file to test: e.g., `suspicious_keylog.txt` or `normal_keylog.txt`
+
+---
+
+### 3. Run from Terminal
+
+Basic usage (with model in same directory):
+
+```bash
+python keylog_detector.py suspicious_keylog.txt
+
